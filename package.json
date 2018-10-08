@@ -1,0 +1,19 @@
+{
+  "name": "simple-example",
+  "version": "1.0.0",
+  "main": "app.js",
+  "author": "Mihnea",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon app.js",
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "faker": "^4.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.4"
+  }
+}
